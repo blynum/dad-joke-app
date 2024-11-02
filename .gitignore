@@ -1,0 +1,22 @@
+# Node modules (for both frontend and backend)
+backend/node_modules
+frontend/node_modules
+
+# Environment variables (for security reasons)
+backend/.env
+frontend/.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build files (for frontend production build)
+frontend/build
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Others
+.env.local
