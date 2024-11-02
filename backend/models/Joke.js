@@ -1,3 +1,6 @@
+// Joke Model (models/Joke.js)
+const mongoose = require('mongoose'); // Add this line
+
 const JokeSchema = new mongoose.Schema({
     joke: { type: String, required: true },
     author: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
